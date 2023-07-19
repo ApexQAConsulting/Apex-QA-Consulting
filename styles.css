@@ -1,0 +1,288 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #F6F6F6;
+    padding: 40px;
+}
+
+nav {
+    background-color: transparent;
+    margin-bottom: 40px;
+}
+
+nav a {
+    color: #4C7ABF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+    display: block;
+    margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+    nav a {
+      /* Reset the display property for larger screens */
+      display: inline;
+      margin: 0 20px;
+    }
+  }
+
+nav a:hover {
+    color: #2371B3;
+}
+
+main {
+    width: 90%;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #4C7ABF;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #4C7ABF;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #4C7ABF;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    text-align: justify;
+}
+
+#hero {
+    background-color: #E6EDF8;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#benefits, #successStories, #callToAction {
+    margin-bottom: 20px;
+}
+
+.benefit, .story {
+    background-color: #E6EDF8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+#contactText {
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #4C7ABF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #2371B3;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    max-height: 250px; /* Adjust the max height as needed */
+}
+
+/* New form styles */
+
+#OperatingHours p {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    background-color: #E6EDF8;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  form .field {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  form input[type=text],
+  form input[type=email],
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #555;
+  }
+  
+  form input[type=text]::placeholder,
+  form input[type=email]::placeholder,
+  form textarea::placeholder {
+    color: #555;
+  }
+  
+  form input[type=submit] {
+    background-color: #4C7ABF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form input[type=submit]:hover {
+    background-color: #2371B3;
+  }
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #999999;
+}
+  
+.logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    max-height: 250px; /* Adjust the max height as needed */
+}
+
+#personalMessage {
+    background-color: #E6EDF8;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+#personalMessage h2 {
+    font-size: 26px;
+    color: #4C7ABF;
+    margin-bottom: 20px;
+}
+
+#personalMessage p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    text-align: justify;
+}
+
+#personalMessage p strong {
+    font-size: 18px;
+    color: #4C7ABF;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid silver;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    width: 50%;  /* Reduces the width of the service box to half */
+    margin: 10px auto;  /* Centers the service box */
+}
+
+.service img {
+    width: 40%;
+    max-height: 160px;
+    max-width: 200px;  /* Adjusts the max width of the image */
+    border-radius: 20%;  /* Rounds the border of the image */
+    padding: 30px;
+}
+
+.service-text {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.service-text h2 {
+    color: #4C7ABF;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    text-align: justify;
+}
+
+.service.left {
+    flex-direction: row;
+    background-color: #E6EDF8;
+}
+
+.service.right {
+    flex-direction: row-reverse;
+    background-color: #E6EDF8;
+}
+
+.about {
+    background-color: #E6EDF8;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.about h2 {
+    margin: 10px 0;
+    color: #4C7ABF;
+    font-size: 24px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    text-align: justify;
+}

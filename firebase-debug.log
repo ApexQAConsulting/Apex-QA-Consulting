@@ -1,0 +1,55 @@
+[debug] [2023-07-19T13:52:07.027Z] ----------------------------------------------------------------------
+[debug] [2023-07-19T13:52:07.029Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\leean\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-07-19T13:52:07.029Z] CLI Version:   12.4.4
+[debug] [2023-07-19T13:52:07.029Z] Platform:      win32
+[debug] [2023-07-19T13:52:07.029Z] Node Version:  v20.4.0
+[debug] [2023-07-19T13:52:07.029Z] Time:          Wed Jul 19 2023 14:52:07 GMT+0100 (British Summer Time)
+[debug] [2023-07-19T13:52:07.029Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-19T13:52:07.071Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-19T13:52:07.071Z] > authorizing via signed-in user (lee.anthony.whiting@googlemail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\leean
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-19T13:52:12.464Z] Using project from CLI flag: apex-qa-consulting---website
+[debug] [2023-07-19T13:52:12.465Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/apex-qa-consulting---website [none]
+[debug] [2023-07-19T13:52:12.779Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/apex-qa-consulting---website 200
+[debug] [2023-07-19T13:52:12.779Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/apex-qa-consulting---website {"projectId":"apex-qa-consulting---website","projectNumber":"533998418775","displayName":"Apex QA Consulting - Website","name":"projects/apex-qa-consulting---website","resources":{"hostingSite":"apex-qa-consulting---website","realtimeDatabaseInstance":"apex-qa-consulting---website-default-rtdb"},"state":"DELETED","etag":"1_eed9851f-3a09-4968-a2c5-a38ee364de23"}
+[info] i  Using project apex-qa-consulting---website (Apex QA Consulting - Website) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-07-19T13:53:31.909Z] Error: Path contains invalid characters: C:\Users\leean\C:\Users\leean\public\public
+    at checkPath (C:\Users\leean\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\utils.js:16:21)
+    at module.exports.makeDirSync (C:\Users\leean\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\make-dir.js:21:3)
+    at Object.createFileSync (C:\Users\leean\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:59:45)
+    at Config.writeProjectFile (C:\Users\leean\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:152:12)
+    at C:\Users\leean\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:176:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async doSetup (C:\Users\leean\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:141:13)
+    at async init (C:\Users\leean\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:9)
+[error] 
+[error] Error: An unexpected error has occurred.
