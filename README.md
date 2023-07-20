@@ -1,6 +1,6 @@
 # Apex-QA-Consulting---Website
 Apex QA Consulting's Website
 
+https://apexqaconsulting.github.io/Apex-QA-Consulting/
 
-Project Console: https://console.firebase.google.com/project/apex-qa-consulting---website/overview
-Hosting URL: https://apex-qa-consulting---website.web.app
+ApexQAConsulting/Apex-QA-Consulting
