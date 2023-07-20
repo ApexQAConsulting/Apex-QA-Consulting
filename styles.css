@@ -61,6 +61,12 @@ h3 {
     color: #4C7ABF;
 }
 
+h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #4C7ABF;
+}
+
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -120,9 +126,13 @@ footer {
     max-height: 250px; /* Adjust the max height as needed */
 }
 
-/* New form styles */
+/*form styles */
 
 #OperatingHours p {
+    text-align: center;
+}
+
+#ContactDetails p {
     text-align: center;
 }
 
@@ -219,7 +229,7 @@ footer {
     padding: 10px;
     margin-bottom: 20px;
     box-sizing: border-box;
-    width: 50%;  /* Reduces the width of the service box to half */
+    width: 100%;  /* Reduces the width of the service box to half */
     margin: 10px auto;  /* Centers the service box */
 }
 
