@@ -112,6 +112,20 @@ p {
     background-color: #2371B3;
 }
 
+.showmore-button {
+    background-color: #4C7ABF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.showmore-button {
+    background-color: #2371B3;
+}
+
 footer {
     margin-top: 40px;
     font-size: 14px;
