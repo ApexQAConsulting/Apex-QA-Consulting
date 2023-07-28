@@ -129,6 +129,10 @@ li {
     text-align: center;
 }
 
+#download {
+    padding: 20px;
+}
+
 .cta-button {
     background-color: #4C7ABF;
     color: white;
